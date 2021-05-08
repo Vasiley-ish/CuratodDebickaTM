@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "495415663567",
+    "firebase_url": "https://curatod-database-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "curatod-database",
+    "storage_bucket": "curatod-database.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:495415663567:android:2088e466f4a3c2bd2f50ba",
+        "android_client_info": {
+          "package_name": "com.example.curatoddebickatm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "495415663567-4atdtjb6uh9l4tsrsqmuruddegp6g718.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDOeV7ACIQoik0bRhdgOOx2l9VZvnrZd24"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "495415663567-4atdtjb6uh9l4tsrsqmuruddegp6g718.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
