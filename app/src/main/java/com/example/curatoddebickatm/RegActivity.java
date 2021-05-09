@@ -22,7 +22,9 @@ public class RegActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_reg);
+        init();
     }
+
     private void init() {
         emailField = findViewById(R.id.email);
         passwordField = findViewById(R.id.password);
@@ -38,7 +40,7 @@ public class RegActivity extends AppCompatActivity {
         String name = nameField.getText().toString();
         Curator newCurator = new Curator(id,email,password,name);
         Context context = this;
-        myDataBase.push().setValue(newCurator,new DatabaseReference.CompletionListener() {
+        myDataBase.push().setValue(newCurator, new DatabaseReference.CompletionListener() {
             public void onComplete(DatabaseError error, DatabaseReference ref) {
                 if (error == null) {
                     Intent intent = new Intent(context,UserActivity.class);
